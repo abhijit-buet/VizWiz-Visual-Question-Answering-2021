@@ -1,6 +1,6 @@
-Visual feature are extracted using a pretrained (on ImageNet) ResNet-152. Input Questions are tokenized, embedded and encoded with an LSTM. Image features and encoded questions are combined and used to compute multiple attention maps over image features. The attended image features and the encoded questions are concatenated and finally fed to a 2-layer classifier that outputs probabilities over the answers 
+Visual feature are extracted using a pretrained (on ImageNet) ResNet-152. Input Questions are tokenized, embedded and encoded with an LSTM. Image features and encoded questions are combined and used to compute multiple attention maps over image features. The attended image features and the encoded questions are concatenated and finally fed to a 2-layer classifier that outputs probabilities over the answers.
 
-vqa.PNG
+<img src="https://github.com/abhijit-buet/VizWiz-Visua-Question-Answering-2021/blob/main/vqa.PNG" width="512" height = "350">
 
 #### Experimental Results 
 
@@ -16,7 +16,7 @@ vqa.PNG
 
 ## Acknowledgment
 
-
+This repository borrowed heavily from these places:
 - https://github.com/DenisDsh/VizWiz-VQA-PyTorch
 - https://github.com/liqing-ustc/VizWiz_LSTM_CNN_Attention/
 - https://github.com/Cadene/vqa.pytorch
